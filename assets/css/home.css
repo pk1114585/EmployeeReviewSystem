@@ -1,0 +1,81 @@
+body{
+    /* background-color: black; */
+}
+/* The styling of home page, is done in such a way that, we get all the element in middle of the page */
+.outerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+/* If the currnet admin is not admin, then this is qoing to show  */
+.adminPass{
+    margin-top: 5px;
+}
+/* Submit button of admin Pass */
+.submitHomeButton{
+    border: 1px solid black;
+    background-color: rgba(143, 194, 76, 0.868);
+    color: black;
+    border-radius: 15px;
+}
+/* Home boxx */
+.home-box {
+    width: 55%;
+    height: fit-content;
+    text-align: center;
+    background-color: #f8f8f8; /* Add a light background color for the text box */
+    padding: 20px; /* Add padding for better spacing */
+    border: 2px solid #ddd; /* Add a border for a defined look */
+    border-radius: 10px; /* Apply rounded corners for a modern appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+
+.adminPass > form > input{
+    outline: none;
+    border:1px solid rgb(11, 100, 132);
+   border-radius: 7px;
+ }
+/* Here the user can review the co-employee, if admin assign to him */
+.reviewBox {
+    width: 95%;
+    height: fit-content;
+    min-height: 140px;
+    padding: 15px; /* Increase padding for better spacing */
+    border: 2px solid rgb(0, 120, 175); /* Increase border width for a bolder look */
+    border-radius: 15px; /* Slightly increase the border radius for a smoother appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    background-color: #f8f8f8; /* Add a light background color for the review box */
+    font-size: 16px; /* Increase font size for better readability */
+    line-height: 1.6; /* Adjust line-height for better spacing between lines of text */
+    color: #333; /* Use a darker color for better contrast with the background */
+  }
+/* class of form , so that we can take it's content, and store it is mongooes */
+.formClass{
+    width: 90%;
+    padding: 10px;
+}
+
+/* .card-out{
+    width: 100%;
+} */
+/* There are two card, while revieweing , we just have to make good use of it
+ */
+.in-card{
+    width: 70%;
+    border: 1px solid black;
+    background-color: rgba(226, 99, 238, 0.518);
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+.text-box {
+    width: 100%;
+    padding: 10px;
+    background-color: #619f5f; /* Use a professional color for the box background */
+    color: #fff; /* Use white text for better contrast on the background */
+    text-align: center; /* Align the text to the center */
+    font-size: 16px;
+    font-weight: bold; /* Add font weight for emphasis */
+  }
