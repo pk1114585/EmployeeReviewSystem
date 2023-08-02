@@ -72,7 +72,8 @@ After reaching the project directory you have to run the following the command.
   ![image](https://github.com/pk1114585/EmployeeReviewSystem/assets/45114125/92fd5d96-14c3-45a7-beb9-62e353c90db8)
 
   # Admin home screen
-  ![image](https://github.com/pk1114585/EmployeeReviewSystem/assets/45114125/bcf8b022-71f0-4c83-9a93-bd050aa1fd7b)
+  ![image](https://github.com/pk1114585/EmployeeReviewSystem/assets/45114125/15323790-103e-4e25-8d4f-9add33d282e5)
+
 
   # Assign Task
   ![image](https://github.com/pk1114585/EmployeeReviewSystem/assets/45114125/d4f0d145-0cc8-4223-8a3e-1ee1a4700bfc)
